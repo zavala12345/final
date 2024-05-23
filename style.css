@@ -1,0 +1,45 @@
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.page{
+  background-color:green;
+   color:white;
+}
+.center{
+    text-align: center;
+}
+.h1{
+    text-align: center;
+     font-size: 60px;
+}
+.glow {
+  font-size: 80px;
+  color: green;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FFFF00, 0 0 40px #FFFF00, 0 0 50px #FFFF00, 0 0 60px #FFFF00, 0 0 70px #FFFF00;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #FFFF00, 0 0 40px #FFFF00, 0 0 50px #FFFF00, 0 0 60px #FFFF00, 0 0 70px #FFFF00, 0 0 80px #FFFF00;
+  }
+}
+.important{
+     font-weight: bold;
+}
+.story{
+    text-align: center;
+     font-size: 35px;
+}
+.centab{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
